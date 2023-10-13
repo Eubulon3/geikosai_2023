@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_title">
+        <a href="#" class="header_logo_a">
+          <img
+            src="../image/index/main_logo.png"
+            alt="メインロゴ"
+            class="header_logo"
+        /></a>
+        <a href="#" class="navi_element">GEIKO SAI 2023</a>
+      </div>
+      <div class="navi" id="hamburgerMenu">
+        <a href="#ABOUT" class="navi_element">ABOUT</a>
+        <a href="#EVENT" class="navi_element">EVENT</a>
+        <a href="#CM" class="navi_element">CM</a>
+      </div>
+      <!-- ハンバーガーメニュー -->
+      <button class="hamburger-menu" id="js-hamburger-menu">
+        <span class="hamburger-menu__bar"></span>
+        <span class="hamburger-menu__bar"></span>
+        <span class="hamburger-menu__bar"></span>
+      </button>
+      <nav class="navigation">
+        <div class="navigation_frame">
+          <div style="width: 40%">
+            <p>ABOUT</p>
+            <div class="navigation_list">
+              <div class="neon-line"></div>
+              <ul class="navigation_ul">
+                <li>
+                  <a href="#">テーマ</a>
+                </li>
+                <li>
+                  <a href="#">アクセス</a>
+                </li>
+                <li>
+                  <a href="#">SNS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div style="width: 45%">
+            <p>EVENT</p>
+            <div class="navigation_list">
+              <div class="neon-line" style="height: 120px"></div>
+              <ul class="navigation_ul">
+                <li>
+                  <a href="#">ステージ</a>
+                </li>
+                <li>
+                  <a href="#">ワークショップ</a>
+                </li>
+                <li>
+                  <a href="#">ブース</a>
+                </li>
+                <li>
+                  <a href="#">カフェ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div style="width: 40%; padding-top: 10%">
+            <p>CM</p>
+            <div class="navigation_list">
+              <div class="neon-line" style="height: 60px"></div>
+              <ul class="navigation_ul">
+                <li>
+                  <a href="#">映像</a>
+                </li>
+                <li>
+                  <a href="#">グッズ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div style="width: 45%"></div>
+          <div class="navigation_img">
+            <img src="../image/index/instagram.png" alt="インスタアイコン" />
+            <img src="../image/index/twitter.png" alt="twitterアイコン" />
+            <img src="../image/index/tiktok.png" alt="tiktokアイコン" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class = "top">
+        <div class="h-frame">
+            <h1>ABOUT</h1>
+        </div>
+        <div class="second-nav">
+            <div class="second-nav-1">
+                <a href = "#theme"></a>
+            </div>
+            <div class="second-nav-2">
+                <a href = "#access"></a>
+            </div>
+            <div class="second-nav-3">
+                <a href = "#sns"></a>
+            </div>
+        </div>
+        <div id="theme">
+            <div class="theme-left">
+                <h3>今年のテーマ</h3>
+                <h2>NEON</h2>
+                <p>今年の芸工祭のテーマは「NEON」です。<br><br>
+                    コロナ禍が徐々に明けて、私たちの暮らしが元に戻りつつあります。
+                     困難を乗り越えた今だからこそ新しい(neo)スタートを踏み出さなければなりません。<br><br>
+                    華やかで美しい、それでいてどこか懐かしい光をはなつネオンライトのように学生ひとりひとりを個性の色で彩り、
+                    これからも愛してもらえる芸工祭になるようにと”NEON”というテーマを設定しました。</p>
+            </div>
+            <div class="theme-right"></div>
+        </div>
+        <div id="date">
+            <h4>開催日時<br>11/4(sat) 10:00 - 16:00<br>11/5(sun) 10:00 - 16:00</h4>
+        </div>
+        <div id="access">
+            <h3>アクセス</h3>
+            <h2>ACCESS</h2>
+            <div class="access-map"></div>
+            <h2>バスでお越しの方</h2>
+            <div class="access-bus"></div>
+            <h2>電車でお越しの方</h2>
+            <div class="access-subway"></div>
+        </div>
+        <div id="sns">
+            <h4>FOLLOW US</h4>
+        </div>
+    </div>
+  </body>
+</html>
