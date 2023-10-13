@@ -29,6 +29,9 @@ window.onload = function () {
     document.removeEventListener("mousewheel", disableScroll, {
       passive: false,
     });
+
+    // フェードイン(jquery)
+    $("body").hide().fadeIn();
   };
 
   animation.play();
