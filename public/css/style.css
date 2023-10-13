@@ -106,25 +106,11 @@ body {
 .ham_line3:active {
   transform: rotate(-45deg);
 }
+/* ここまではなし */
 
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    height: 70px;
-    padding: 0 20px;
-  }
-
-  .navi {
-    display: none;
-  }
-
-  .navi_element {
-    font-size: 14px;
   }
 }
 
@@ -137,6 +123,7 @@ body {
   appearance: none;
   padding: 0;
   cursor: pointer;
+  z-index: 9999;
 }
 .hamburger-menu__bar {
   display: inline-block;
@@ -147,6 +134,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   transition: 0.5s;
+  background-color: #ffffff;
 }
 .hamburger-menu__bar:first-child {
   top: 16px;
@@ -173,9 +161,10 @@ body {
   display: none;
   background: #242424;
   position: absolute;
-  top: 50px;
+  top: 0px;
   width: 100%;
-  z-index: 9999;
+  z-index: 9998;
+  margin-left: -50px;
 }
 .navigation__list {
   text-align: center;
@@ -200,5 +189,24 @@ body {
 @media (hover: hover) and (pointer: fine) {
   .navigation__link:hover {
     background: #333;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 70px;
+    padding: 0 20px;
+  }
+
+  .navi {
+    display: none;
+  }
+
+  .navi_element {
+    font-size: 14px;
+  }
+
+  .navigation {
+    margin-left: -20px;
   }
 }
