@@ -25,6 +25,8 @@
 
 :root {
   --dark_purple: #313153;
+  --yellow: #fdc25a;
+  --base_black: #313153;
 }
 
 body {
@@ -75,43 +77,6 @@ body {
   font-size: 16px;
 }
 
-.hamburger {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: none;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  gap: 3px;
-  background-color: #fdc25a;
-}
-
-.ham_line1,
-.ham_line2,
-.ham_line3 {
-  width: 60%;
-  height: 2px;
-  background: #000;
-  transition: all 0.3s;
-}
-
-.hamburger:active + .ham_line1 {
-  transform: rotate(45deg);
-}
-
-/* .ham_line1:active {
-  transform: rotate(45deg);
-} */
-.ham_line2:active {
-  width: 0px;
-}
-.ham_line3:active {
-  transform: rotate(-45deg);
-}
-/* ここまではなし */
-
 @media screen and (min-width: 768px) {
   .hamburger-menu {
     display: none;
@@ -119,8 +84,8 @@ body {
 }
 
 .hamburger-menu {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: relative;
   border: none;
   background: transparent;
@@ -128,6 +93,8 @@ body {
   padding: 0;
   cursor: pointer;
   z-index: 9999;
+  background-color: var(--yellow);
+  border-radius: 50%;
 }
 .hamburger-menu__bar {
   display: inline-block;
@@ -138,16 +105,16 @@ body {
   left: 50%;
   transform: translateX(-50%);
   transition: 0.5s;
-  background-color: #ffffff;
+  background-color: var(--base_black);
 }
 .hamburger-menu__bar:first-child {
-  top: 16px;
+  top: 35%;
 }
 .hamburger-menu__bar:nth-child(2) {
-  top: 24px;
+  top: 50%;
 }
 .hamburger-menu__bar:last-child {
-  top: 32px;
+  top: 65%;
 }
 .hamburger-menu--open .hamburger-menu__bar {
   top: 50%;
@@ -161,6 +128,8 @@ body {
 .hamburger-menu--open .hamburger-menu__bar:nth-child(2) {
   display: none;
 }
+
+/* ハンバーガーのナビゲーション↓*/
 .navigation {
   background: var(--dark_purple);
   position: absolute;
@@ -178,32 +147,6 @@ body {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-}
-
-/* .navigation__list {
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.navigation__list-item {
-  border-bottom: solid 1px #474747;
-}
-.navigation__list-item:first-child {
-  border-top: solid 1px #474747;
-}
-.navigation__link {
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-  display: block;
-  padding: 24px 0;
-  transition: 0.5s;
-} */
-@media (hover: hover) and (pointer: fine) {
-  .navigation__link:hover {
-    background: #333;
-  }
 }
 
 .navigation_list {
@@ -260,11 +203,9 @@ body {
     height: 70px;
     padding: 0 20px;
   }
-
   .navi {
     display: none;
   }
-
   .navi_element {
     font-size: 14px;
   }
