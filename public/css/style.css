@@ -113,7 +113,7 @@ body {
 /* ここまではなし */
 
 @media screen and (min-width: 768px) {
-  .hamburger {
+  .hamburger-menu {
     display: none;
   }
 }
@@ -162,9 +162,6 @@ body {
   display: none;
 }
 .navigation {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
   background: var(--dark_purple);
   position: absolute;
   top: 70px;
@@ -172,9 +169,16 @@ body {
   z-index: 9998;
   margin-left: -20px;
   height: 100%;
+  display: none;
 }
 
-
+.navigation_frame {
+  padding: 70px 20px 0px 35px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
 /* .navigation__list {
   text-align: center;
@@ -205,7 +209,9 @@ body {
 .navigation_list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 15%;
+  padding-top: 15px;
 }
 
 .navigation p {
@@ -224,6 +230,7 @@ body {
 
 .navigation_ul li {
   padding-bottom: 5px;
+  font-size: 17px;
 }
 
 .navigation_ul li a {
@@ -233,16 +240,21 @@ body {
 
 .neon-line {
   width: 2.5px;
-  height: 77px;
-  /* transform: rotate(90deg); */
+  height: 90px;
   flex-shrink: 0;
   stroke-width: 2.208px;
   background-color: #fbf6a4;
   filter: drop-shadow(0px 0px 4.4157209396362305px #f1df38);
-  /* width: 100px;
-  height: 100px; */
-  /* background-color: lightcoral; */
+  border-radius: 100vh;
 }
+
+.navigation_img {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 30%;
+}
+
 @media screen and (max-width: 768px) {
   .header {
     height: 70px;
