@@ -5,19 +5,24 @@
     text-align: center;
 }
 
-html{
-    font-size: 1.3vw;
+p {
+    font-size: 17px;
 }
-
-h2{
-    font-size: 2rem;
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
 }
 
 .top{
-    position: relative;
-    height: 28%;
     width: 100%;
     overflow: hidden;
+
+    margin-top: 70px;
 
     display: flex;
     flex-direction: column;
@@ -26,25 +31,21 @@ h2{
     background-color: #313153;
 
     border-bottom: thin solid #fefef5;
-    box-sizing: content-box;
+    box-sizing: border-box;
 
-    box-shadow: 0 0 2px #fdc25a;
+    box-shadow: 0 0 5px #fdc25a;
+
+    background-image: url("../image/event/bg_neon.webp");
+    background-size: cover;
 }
 
-.top .h-frame{
-    position: relative;
+.top h2{
     margin-top: 5%;
 
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    background-image: url("../image/event/frame_headh-frame.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.top .h-frame h1{
-    padding: 0.7em 0;
     color: #ffffff;
 }
 
@@ -68,7 +69,7 @@ h2{
 
     border: medium solid #000000;
 
-    box-shadow: 5px 5px 0 ;
+    box-shadow: 5px 5px 0;
 }
 
 .top .second-nav-box a{
@@ -83,34 +84,22 @@ h2{
 #theme{
     background-color: #313153;
     overflow: hidden;
-    padding: 0 15%;
+
+    padding: 5% 15%;
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
-.theme-left{
-    margin: 5% 0;
-
-    width: 50%;
+#theme h2, #theme h3, #theme p{
     color: #ffffff;
 }
 
-.theme-left h2, .theme-left h3, .theme-left p{
-    text-align: left;
-}
-
-.theme-left p{
-    margin-top: 10%;
-}
-
-.theme-right{
-    width: 42%;
-
-    background-image: url("../image/index/main_logo.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#theme img{
+    width: auto;
+    height: 30vw;
+    margin: -2% 0;
 }
 
 #date{
@@ -121,8 +110,9 @@ h2{
     overflow: hidden;
 }
 
-#date h4{
-    margin: 3% 0;
+#date p{
+    margin: 8% 0;
+    font-weight: bold;
 }
 
 #access{
@@ -142,11 +132,7 @@ h2{
 }
 .map-img{
     width: 100%;
-    height: 35vw;
-    background-image: url("../image/event/about/map.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: auto;
 }
 
 .bus{
@@ -154,12 +140,7 @@ h2{
 }
 .bus-img{
     width: 100%;
-    height: 38.5vw;
-
-    background-image: url("../image/event/about/bus.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: auto;
 }
 
 .subway{
@@ -167,12 +148,7 @@ h2{
 }
 .subway-img{
     width: 100%;
-    height: 20vw;
-
-    background-image: url("../image/event/about/subway.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: auto;
 }
 
 #sns{
@@ -191,16 +167,16 @@ h2{
     align-items: center;
 }
 
-#sns h4{
+#sns p{
     color: #ffffff;
 }
 
 #sns hr{
-    width: 29%;
+    width: 10%;
 }
 
 #sns .sns-logo{
-    width: 20%;
+    width: 30%;
 
     display: flex;
     justify-content: space-between;
@@ -208,7 +184,7 @@ h2{
 }
 
 #sns .sns-logo img{
-    height: 3rem;
+    height: 2rem;
 }
 
 footer{
@@ -223,4 +199,41 @@ footer p{
 footer .contents{
     margin: 10% 0;
 
+}
+
+
+
+@media screen and (max-width:480px){
+p {
+    font-size: 16px;
+}
+
+h2{
+    font-size: 23px;
+}
+
+.top .second-nav{
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    row-gap: 10px;
+}
+
+.top .second-nav-box{
+    width: 40%;
+}
+
+#theme img{
+    width: 100%;
+    height: auto;
+}
+#access{
+    padding: 0 5%;
+}
+#sns .contents{
+    padding: 0 5%;
+}
+#sns .sns-logo img{
+    height: 1.5rem;
+}
 }
