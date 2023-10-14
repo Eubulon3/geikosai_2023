@@ -32,8 +32,8 @@
   width: 100%;
   height: 100vh;
   background-image: url(../image/index/about-backimg-pc.png);
-  background-size: 110% 750px;
-  background-position: center;
+  background-size: 110% 101%;
+  background-position-x: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -64,12 +64,11 @@
   font-size: 25px;
   line-height: 250%;
 }
-
 @media screen and (max-width: 768px) {
   .about_bg_text {
     height: 450px;
     background-image: url(../image/index/about-backimg-sp.png);
-    background-size: 92% 450px;
+    background-size: 90% 450px;
     background-position: center;
   }
   .about-title p {
@@ -81,4 +80,120 @@
   .about-text p {
     font-size: 15px;
   }
+}
+
+/* indexs部分 */
+.indexs {
+  /* height: 100vh; */
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.indexs-and-sns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 160px;
+  padding: 200px 0;
+  width: 830px;
+  /* background-color: blue; */
+}
+.index-list {
+  /* background-color: white; */
+  /* height: 900px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.index-theme,
+.index-access,
+.index-cm,
+.index-goods {
+  background-color: black;
+  width: 45%;
+  aspect-ratio: 2.7/1;
+  color: white;
+}
+.index-stage,
+.index-cafe,
+.index-workshop,
+.index-booth {
+  background-color: black;
+  width: 30%;
+  aspect-ratio: 1/1;
+  color: white;
+}
+.index-game {
+  background-color: black;
+  width: 535px;
+  aspect-ratio: 4.6/1;
+  color: white;
+}
+
+@media screen and (max-width: 896px) {
+  .indexs-and-sns {
+    width: 90%;
+    padding: 50px 0;
+    gap: 60px;
+  }
+  .index-list {
+    gap: 20px;
+  }
+  .index-theme,
+  .index-access,
+  .index-cm,
+  .index-goods,
+  .index-game {
+    width: 100%;
+    aspect-ratio: 2.7/1;
+  }
+  .index-stage,
+  .index-cafe,
+  .index-workshop,
+  .index-booth {
+    width: 45%;
+  }
+}
+
+/* follow-us部分 */
+.follow-us {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 50px; */
+  width: 90%;
+}
+
+.follow-us p {
+  font-size: 28px;
+}
+
+.center-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-bar span {
+  width: 250px;
+  height: 1px;
+  background-color: black;
+}
+
+.sns-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.sns-imgs img{
+  width: 56px;
+  height: 56px;
 }
