@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html{
+    font-size: 1.3vw;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.top{
+    position: relative;
+    height: 28%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #313153;
+
+    border-bottom: thin solid #fefef5;
+    box-sizing: content-box;
+
+    box-shadow: 0 0 2px #fdc25a;
+}
+
+.top .h-frame{
+    position: relative;
+    margin-top: 5%;
+
+    width: 25%;
+
+    background-image: url("../image/event/frame_headh-frame.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top .h-frame h1{
+    padding: 0.7em 0;
+    color: #ffffff;
+}
+
+.top .second-nav{
+    margin: 4% 0;
+    width: 73%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.top .second-nav-box{
+    width: 30%;
+
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: medium solid #000000;
+
+    box-shadow: 5px 5px 0 ;
+}
+
+.top .second-nav-box a{
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+#theme{
+    background-color: #313153;
+    overflow: hidden;
+    padding: 0 15%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-left{
+    margin: 5% 0;
+
+    width: 50%;
+    color: #ffffff;
+}
+
+.theme-left h2, .theme-left h3, .theme-left p{
+    text-align: left;
+}
+
+.theme-left p{
+    margin-top: 10%;
+}
+
+.theme-right{
+    width: 42%;
+
+    background-image: url("../image/index/main_logo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#date{
+    width: 100%;
+
+    background-color: #fdc25a;
+
+    overflow: hidden;
+}
+
+#date h4{
+    margin: 3% 0;
+}
+
+#access{
+    background-color: #313153;
+    overflow: hidden;
+
+    padding: 0 15%;
+}
+
+#access h2, #access h3{
+    text-align: left;
+    color: #ffffff;
+}
+
+.map{
+    margin-top: 10%;
+}
+.map-img{
+    width: 100%;
+    height: 35vw;
+    background-image: url("../image/event/about/map.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bus{
+    margin-top: 10%;
+}
+.bus-img{
+    width: 100%;
+    height: 38.5vw;
+
+    background-image: url("../image/event/about/bus.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.subway{
+    margin: 10% 0;
+}
+.subway-img{
+    width: 100%;
+    height: 20vw;
+
+    background-image: url("../image/event/about/subway.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#sns{
+    background-color: #313153;
+
+    overflow: hidden;
+}
+
+#sns .contents{
+    margin: 20% 0;
+
+    padding: 0 15%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sns h4{
+    color: #ffffff;
+}
+
+#sns hr{
+    width: 29%;
+}
+
+#sns .sns-logo{
+    width: 20%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sns .sns-logo img{
+    height: 3rem;
+}
+
+footer{
+    background-color: #677156;
+
+    overflow: hidden;
+}
+footer p{
+    color: #ffffff;
+}
+
+footer .contents{
+    margin: 10% 0;
+
+}
