@@ -161,11 +161,9 @@
 
 /* follow-us部分 */
 .follow-us {
-  /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* height: 50px; */
   width: 90%;
 }
 
@@ -193,7 +191,23 @@
   gap: 30px;
 }
 
-.sns-imgs img{
+.sns-imgs img {
   width: 56px;
   height: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .follow-us p {
+    font-size: 15px;
+  }
+  .center-bar span {
+    width: 95px;
+  }
+  .sns-imgs {
+    gap: 15px;
+  }
+  .sns-imgs img {
+    width: 25px;
+    height: 25px;
+  }
 }
