@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 17px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.top{
+    width: 100%;
+    overflow: hidden;
+
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #313153;
+
+    border-bottom: thin solid #fefef5;
+    box-sizing: border-box;
+
+    box-shadow: 0 0 5px #fdc25a;
+
+    background-image: url("../image/event/bg_neon.webp");
+    background-size: cover;
+}
+
+.top h2{
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+.top .second-nav-box{
+    width: 30%;
+
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: medium solid #000000;
+
+    box-shadow: 5px 5px 0;
+}
+
+.top .second-nav{
+    margin: 4% 0;
+    width: 73%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.top .second-nav-box a{
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+.second-nav-box:last-child{
+    background-color: #fdc25a;
+}
+
+.movie{
+    padding: 5% 7%;
+
+    background-color: #313153;
+}
+
+.movie h2{
+    color: #ffffff;
+}
+
+.movie .contents{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    margin-top: 5%;
+
+    gap: 30px;
+}
+
+.movie .contents::after{
+    content: "";
+    display: block;
+    width: 30%;
+}
+
+.area{
+    width: 30%;
+    /* ↓仮 */
+    height: 200px;
+
+    background-color: #888888;
+}
+
+.area p{
+    text-align: left;
+}
+
+.area p span{
+    font-weight: bold;
+}
+
+.goods-container{
+    height: 150px;
+
+    background-color: #000000;
+}
+
+footer{
+    background-color: #677156;
+
+    overflow: hidden;
+}
+footer p{
+    color: #ffffff;
+}
+
+footer .contents{
+    margin: 10% 0;
+
+}
+
+@media screen and (max-width:480px){
+p {
+    font-size: 16px;
+}
+
+h2{
+    font-size: 23px;
+}
+.top{
+    margin-top: 70px;
+}
+.area{
+    width: 100%;
+}
+}
