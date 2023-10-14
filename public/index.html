@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
+      integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
+    <!-- <script src="./js/lottie.js" type="text/javascript"></script> -->
     <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/top.css" />
   </head>
   <body>
+    <div id="first-view" class="first-view"></div>
     <header class="header">
       <div class="header_title">
         <a href="#" class="header_logo_a">
@@ -93,5 +103,74 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div class="top-logo">
+        <img
+          src="./image/index/main_logo.png"
+          alt="メインロゴ"
+          class="top-img"
+        />
+      </div>
+      <div class="about">
+        <div class="about_bg_text">
+          <div class="about-title">
+            <p>芸工祭とは</p>
+            <h2>ABOUT</h2>
+          </div>
+          <div class="about-text">
+            <p>
+              芸工祭は、名古屋市立大学芸術
+              <br />工学部のお祭りなんだよ！
+              <br />学生たちがアートや技術で魅せる展示や、
+              <br />クリエイティブなグッズがズラリの模擬店。
+              <br />音楽や競技ステージでは、笑いあり、
+              <br />感動ありのショーが繰り広げられちゃう。
+              <br />まるでクリエイティブな夢の国みたいなんだ！
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="indexs">
+        <div class="indexs-and-sns">
+          <div class="index-list">
+            <div class="index-theme">テーマ説明</div>
+            <div class="index-access">アクセス</div>
+            <div class="index-stage">ステージ</div>
+            <div class="index-cafe">カフェ</div>
+            <div class="index-workshop">ワークショップ</div>
+            <div class="index-booth">ブース</div>
+            <div class="index-game">ゲーム</div>
+            <div class="index-cm">CM</div>
+            <div class="index-goods">グッズ</div>
+          </div>
+          <div class="follow-us">
+            <p>FOLLOW US</p>
+            <div class="center-bar">
+              <span></span>
+            </div>
+            <div class="sns-imgs">
+              <img
+                src="./image/index/instagram-black.png"
+                alt="インスタアイコン"
+              />
+              <img
+                src="./image/index/instagram-black.png"
+                alt="インスタアイコン"
+              />
+              <img src="./image/index/tiktok.png" alt="tiktokアイコン" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>
+        <span>名古屋市立大学芸術工学部</span>
+        <br />
+        〒464-0083 名古屋市千種区北千種2丁目1番10号 <br />TEL052-721-1225(代)
+        FAX052-721-3110
+      </p>
+      <p>©️ Copyright 2023geikosai</p>
+    </footer>
   </body>
 </html>
