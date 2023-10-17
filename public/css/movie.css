@@ -68,23 +68,34 @@ a{
 
 .top .second-nav{
     margin: 4% 0;
-    width: 73%;
+    width: 95%;
 
     display: flex;
     justify-content: space-around;
     align-items: stretch;
 }
 
-.top .second-nav-box a{
-    padding: 0.5rem 0;
-    font-size: 1rem;
-    font-weight: 300;
-
-    text-decoration: none;
-    color: #000000;
+.top .second-nav a{
+    width: 30%;
 }
 
-.second-nav-box:first-child{
+.top .second-nav-box{
+    width: 100%;
+
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: medium solid #000000;
+
+    box-shadow: 5px 5px 0 #000000;
+
+    padding: 0.5rem;
+}
+
+.second-nav a:first-child .second-nav-box{
     background-color: #fdc25a;
 }
 
@@ -132,6 +143,15 @@ footer p{
 footer .contents{
     margin: 10% 0;
 
+}
+
+@media screen and (max-width: 768px) {
+.area{
+    width: 45%;
+}
+.top{
+    margin-top: 70px;
+}
 }
 
 @media screen and (max-width:480px){

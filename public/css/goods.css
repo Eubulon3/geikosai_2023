@@ -84,17 +84,17 @@ a{
     background-color: #fdc25a;
 }
 
-.movie{
+.goods{
     padding: 5% 7%;
 
     background-color: #313153;
 }
 
-.movie h2{
+.goods h2{
     color: #ffffff;
 }
 
-.movie .contents{
+.goods .contents{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -104,7 +104,7 @@ a{
     gap: 30px;
 }
 
-.movie .contents::after{
+.goods .contents::after{
     content: "";
     display: block;
     width: 30%;
