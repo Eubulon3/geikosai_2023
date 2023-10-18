@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    font-size: 17px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
+}
+
+.top{
+    width: 100%;
+    overflow: hidden;
+
+    margin-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #313153;
+
+    border-bottom: thin solid #fefef5;
+    box-sizing: border-box;
+
+    box-shadow: 0 0 5px #fdc25a;
+
+    background-image: url("../image/event/bg_neon.webp");
+    background-size: cover;
+}
+
+.top h2{
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+.top .second-nav{
+    margin: 4% 0;
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.top .second-nav a{
+    width: 23%;
+}
+
+.top .second-nav-box{
+    width: 100%;
+
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: medium solid #000000;
+
+    box-shadow: 5px 5px 0 #000000;
+
+}
+
+.second-nav a:nth-child(3) .second-nav-box{
+    background-color: #fdc25a;
+}
+
+.top .second-nav-box p{
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+.ws{
+    background-color: #313153;
+    color: #ffffff;
+
+    overflow: hidden;
+
+    padding: 4% 7% 10% 7%;
+
+
+}
+
+.ws .contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ws .box{
+    width: 65%;
+    height: auto;
+    aspect-ratio: 1;
+
+    background-color: #fefef5;
+
+    margin-top: 10%;
+}
+
+footer{
+    background-color: #677156;
+
+    overflow: hidden;
+}
+footer p{
+    color: #ffffff;
+}
+
+footer .contents{
+    margin: 10% 0;
+
+}
+
+@media screen and (max-width: 768px) {
+.top{
+    margin-top: 70px;
+}
+}
+
+
+
+@media screen and (max-width:480px){
+p {
+    font-size: 16px;
+}
+
+h2{
+    font-size: 23px;
+}
+
+.top .second-nav{
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    row-gap: 10px;
+}
+
+.top .second-nav a{
+    width: 45%;
+}
+
+.top .second-nav-box{
+    width: 100%;
+}
+
+.ws{
+    padding: 10%;
+}
+.ws .box{
+    width: 80%;
+    height: auto;
+    aspect-ratio: 1;
+
+    background-color: #fefef5;
+
+    margin-top: 10%;
+}
+}
