@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    font-size: 17px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
+}
+
+.top{
+    width: 100%;
+    overflow: hidden;
+
+    margin-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #313153;
+
+    border-bottom: thin solid #fefef5;
+    box-sizing: border-box;
+
+    box-shadow: 0 0 5px #fdc25a;
+
+    background-image: url("../image/event/bg_neon.webp");
+    background-size: cover;
+}
+
+.top h2{
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+}
+
+.top .second-nav{
+    margin: 4% 0;
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.top .second-nav a{
+    width: 23%;
+}
+
+.top .second-nav-box{
+    width: 100%;
+
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: medium solid #000000;
+
+    box-shadow: 5px 5px 0 #000000;
+
+}
+
+.second-nav a:last-child .second-nav-box{
+    background-color: #fdc25a;
+}
+
+.top .second-nav-box p{
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+.booth{
+    background-color: #313153;
+    color: #ffffff;
+
+    overflow: hidden;
+
+    padding: 4% 7% 10% 7%;
+}
+
+.booth .stores h2{
+    margin-top: 3%;
+}
+
+.booth .stores p{
+    margin-top: 1rem;
+}
+
+.stores .contents{
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.stores .contents p{
+    color: #000000;
+}
+
+.stores .contents .shadow{
+    width: 28%;
+    aspect-ratio: 1;
+
+    margin-top: 10%;
+
+    transform: translate(14px, 14px);
+}
+
+.stores .contents .store{
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 3%;
+    border: medium solid #000000;
+
+    overflow: visible;
+
+    transform: translate(-14px, -14px);
+}
+
+.stores .contents .shadow .store .icon-container{
+    width: 40%;
+    aspect-ratio: 1;
+
+    margin-top: 1rem;
+
+    background-color: #dddddd;
+
+    border-radius: 100%;
+
+    background-size: cover;
+
+    border: medium solid #fdc25a;
+}
+
+.stores .contents .shadow:nth-child(1) .store .icon-container{
+    background-image: url("../image/event/booth/geiko\ records.webp");
+}
+
+.stores .contents .shadow:nth-child(2) .store .icon-container{
+    background-image: url("../image/event/booth/karaage.webp");
+}
+.stores .contents .shadow:nth-child(3) .store .icon-container{
+    background-image: url("../image/event/booth/neoncharm.webp");
+}
+.stores .contents .shadow:nth-child(4) .store .icon-container{
+    background-image: url("../image/event/booth/nfab.webp");
+}
+.stores .contents .shadow:nth-child(5) .store .icon-container{
+    background-image: url("../image/event/booth/omucheki.webp");
+}
+.stores .contents .shadow:nth-child(6) .store .icon-container{
+    background-image: url("../image/event/booth/orasa.webp");
+}
+.stores .contents .shadow:nth-child(7) .store .icon-container{
+    background-image: url("../image/event/booth/pdf.webp");
+}
+.stores .contents .shadow:nth-child(8) .store .icon-container{
+    background-image: url("../image/event/booth/uranaiuranai.webp");
+}
+.stores .contents .shadow:nth-child(9) .store .icon-container{
+    background-image: url("../image/event/booth/gocchaya.webp");
+}
+.stores .contents .shadow:nth-child(10) .store .icon-container{
+    background-image: url("../image/event/booth/junkminoru.webp");
+}
+.stores .contents .shadow:nth-child(11) .store .icon-container{
+    background-image: url("../image/event/booth/takoaru.webp");
+}
+.stores .contents .shadow:nth-child(12) .store .icon-container{
+    background-image: url("../image/event/booth/toa.webp");
+}
+.stores .contents .shadow:nth-child(13) .store .icon-container{
+    background-image: url("../image/event/booth/pegopa.webp");
+}
+.stores .contents .shadow:nth-child(14) .store .icon-container{
+    background-image: url("../image/event/booth/maruya.webp");
+}
+.stores .contents .shadow:nth-child(15) .store .icon-container{
+    background-image: url("../image/event/booth/yodasuto.webp");
+}
+.stores .contents .shadow:nth-child(16) .store .icon-container{
+    background-image: url("../image/event/booth/zakka.webp");
+}
+.stores .contents .shadow:nth-child(17) .store .icon-container{
+    background-image: url("../image/event/booth/yamamoto.webp");
+}
+.stores .contents .shadow:nth-child(18) .store .icon-container{
+    background-image: url("../image/event/booth/tobihiza.webp");
+}
+.stores .contents .shadow:nth-child(19) .store .icon-container{
+    background-image: url("../image/event/booth/tobihiza.webp");
+}
+
+.stores .contents .shadow:nth-child(2n+1){
+    background-image: url("../image/event/booth/polka-pink.webp");
+    background-size: cover;
+}
+
+.stores .contents .shadow:nth-child(2n){
+    background-image: url("../image/event/booth/polka-yellow.webp");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #677156;
+
+    overflow: hidden;
+}
+footer p{
+    color: #ffffff;
+}
+
+footer .contents{
+    margin: 10% 0;
+
+}
+
+@media screen and (max-width: 768px) {
+.top{
+    margin-top: 70px;
+}
+
+.stores .contents .shadow{
+    width: 45%;
+
+    margin-top: 15%;
+}
+}
+
+
+
+@media screen and (max-width:480px){
+p {
+    font-size: 16px;
+}
+
+h2{
+    font-size: 23px;
+}
+
+.top .second-nav{
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    row-gap: 10px;
+}
+
+.top .second-nav a{
+    width: 45%;
+}
+
+.top .second-nav-box{
+    width: 100%;
+}
+
+.booth{
+    padding: 10%;
+}
+
+.stores .contents .shadow{
+    width: 100%;
+
+    margin-top: 15%;
+}
+}
