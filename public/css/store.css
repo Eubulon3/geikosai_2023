@@ -100,7 +100,7 @@ h4 {
 
     overflow: hidden;
 
-    padding: 4% 7% 10% 7%;
+    padding: 4% 10% 10% 10%;
 }
 
 .booth .stores h2{
@@ -108,7 +108,7 @@ h4 {
 }
 
 .booth .stores p{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .stores .contents{
@@ -124,17 +124,19 @@ h4 {
 }
 
 .stores .contents .shadow{
-    width: 28%;
-    aspect-ratio: 1;
+    width: 30%;
+    align-items: stretch;
 
-    margin-top: 10%;
+    display: flex;
+
+    margin-top: 5%;
 
     transform: translate(14px, 14px);
 }
 
 .stores .contents .store{
     width: 100%;
-    aspect-ratio: 1;
+    align-items: stretch;
     background-color: #ffffff;
 
     display: flex;
@@ -147,13 +149,15 @@ h4 {
     overflow: visible;
 
     transform: translate(-14px, -14px);
+
+    padding: 10% 5%;
 }
 
 .stores .contents .shadow .store .icon-container{
-    width: 40%;
+    width: 30%;
     aspect-ratio: 1;
 
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 
     background-color: #dddddd;
 
@@ -233,6 +237,15 @@ h4 {
     background-size: cover;
 }
 
+.stores .contents .shadow .store .name{
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.stores .contents .shadow .store p:last-child{
+    line-height: 1.5;
+    font-size: small;
+}
 
 
 
@@ -254,15 +267,10 @@ footer .contents{
 
 }
 
-@media screen and (max-width: 768px) {
-.top{
-    margin-top: 70px;
-}
 
+@media screen and (max-width: 1100px){
 .stores .contents .shadow{
     width: 45%;
-
-    margin-top: 15%;
 }
 }
 
@@ -300,6 +308,6 @@ h2{
 .stores .contents .shadow{
     width: 100%;
 
-    margin-top: 15%;
+    margin-top: 8%;
 }
 }
