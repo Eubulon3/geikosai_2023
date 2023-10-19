@@ -1,3 +1,7 @@
+.first-view {
+  padding-top: 80px;
+}
+
 .top-logo {
   display: flex;
   justify-content: center;
