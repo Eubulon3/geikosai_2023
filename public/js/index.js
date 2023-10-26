@@ -60,8 +60,6 @@ window.onload = function () {
 
         //アニメーション終了後の処理
         animation.onComplete = () => {
-          //lottieアニメーションの要素を消す
-          firstView.classList.add("delete");
 
           // スクロール解除
           document.removeEventListener("touchmove", disableScroll, {
@@ -71,8 +69,8 @@ window.onload = function () {
             passive: false,
           });
 
-          // フェードイン(jquery)
-          $("body").hide().fadeIn();
+          // フェードアウト(jquery)
+          $("#first-view").fadeOut(500);
         };
 
         animation.play();

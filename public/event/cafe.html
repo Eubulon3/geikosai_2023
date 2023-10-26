@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
     <script src="../js/common.js"></script>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/cafe.css" />
   </head>
   <body>
@@ -14,15 +14,15 @@
       <div class="header_title">
         <a href="../index.html" class="header_logo_a">
           <img
-            src="../image/index/main_logo.png"
+            src="../image/common/main_logo.webp"
             alt="メインロゴ"
             class="header_logo"
         /></a>
         <a href="../index.html" class="navi_element">GEIKO SAI 2023</a>
       </div>
       <div class="navi" id="hamburgerMenu">
-        <a href="../about/index.html" class="navi_element">ABOUT</a>
-        <a href="./index.html" class="navi_element">EVENT</a>
+        <a href="../about/about.html" class="navi_element">ABOUT</a>
+        <a href="./event/stage.html" class="navi_element">EVENT</a>
         <a href="../cm/movie.html" class="navi_element">CM</a>
       </div>
       <!-- ハンバーガーメニュー -->
@@ -39,13 +39,13 @@
               <div class="neon-line"></div>
               <ul class="navigation_ul">
                 <li>
-                  <a href="../about/index.html#theme">テーマ</a>
+                  <a href="../about/about.html#theme">テーマ</a>
                 </li>
                 <li>
-                  <a href="../about/index.html#access">アクセス</a>
+                  <a href="../about/about.html#access">アクセス</a>
                 </li>
                 <li>
-                  <a href="../about/index.html#sns">SNS</a>
+                  <a href="../about/about.html#sns">SNS</a>
                 </li>
               </ul>
             </div>
@@ -56,10 +56,10 @@
               <div class="neon-line" style="height: 120px"></div>
               <ul class="navigation_ul">
                 <li>
-                  <a href="./index.html">ステージ</a>
+                  <a href="./stage.html">ステージ</a>
                 </li>
                 <li>
-                  <a href="./workshop.html">ワークショップ</a>
+                  <a href="./ws.html">ワークショップ</a>
                 </li>
                 <li>
                   <a href="./booth.html">ブース</a>
@@ -85,10 +85,25 @@
             </div>
           </div>
           <div style="width: 45%"></div>
-          <div class="navigation_img">
-            <img src="../image/index/instagram.png" alt="インスタアイコン" />
-            <img src="../image/index/twitter.png" alt="twitterアイコン" />
-            <img src="../image/index/tiktok.png" alt="tiktokアイコン" />
+          <div class="navigation-img">
+            <a
+              href="https://www.instagram.com/geiko_sai_2023/"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img src="../image/common/logo_insta.svg" alt="インスタ"
+            /></a>
+            <a 
+              href="https://twitter.com/geik0"
+              target="_blank"
+              rel="no-referrer noopener"
+              ><img src="../image/common/logo_x.svg" alt="x" 
+            /></a>
+            <a
+              href="https://www.tiktok.com/@geiko_2023"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img src="../image/common/logo_tiktok.svg" alt="tiktok"
+            /></a>
           </div>
         </div>
       </nav>
@@ -97,7 +112,7 @@
       <div class="top">
         <h2>EVENT</h2>
         <div class="second-nav">
-          <a href="./index.html">
+          <a href="./stage.html">
             <div class="second-nav-box">
               <p>ステージ</p>
             </div>
@@ -107,7 +122,7 @@
               <p>カフェ</p>
             </div>
           </a>
-          <a href="./workshop.html">
+          <a href="./ws.html">
             <div class="second-nav-box">
               <p>ワークショップ</p>
             </div>
@@ -123,13 +138,6 @@
         <div class="title-cafe">
           <h2>CAFE</h2>
         </div>
-        <p>
-          Lorem ipsum, dolor sit amet
-          <br />consectetur adipisicing elit. Odit consequuntur, libero alias,
-          reiciendis cum culpa minus, <br />earum doloribus officiis
-          voluptatibus totam expedita accusamus. Odit, distinctio consectetur
-          odio vitae earum quos?
-        </p>
       </div>
       <div class="cafe-contents">
         <div class="cafe-content1">
@@ -147,6 +155,17 @@
               <a href="./movie.html">メニューはこちら</a>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="cm">
+        <div class="movie-container">
+          <iframe
+          src="https://www.youtube.com/embed/H0CJ80vJNB4?si=bzC76KmMf5Lf199b" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen
+          ></iframe>
         </div>
       </div>
     </main>

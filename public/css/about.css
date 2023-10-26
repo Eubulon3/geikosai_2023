@@ -1,26 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: #000000;
-}
-p {
-    font-size: 17px;
-}
-h2 {
-    font-size: 25px;
-}
-h3 {
-    font-size: 20px;
-}
-h4 {
-    font-size: 20px;
-}
-
 .top{
     width: 100%;
     overflow: hidden;
@@ -38,7 +15,7 @@ h4 {
 
     box-shadow: 0 0 5px #fdc25a;
 
-    background-image: url("../image/event/bg_neon.webp");
+    background-image: url("../image/common/bg_neon.webp");
     background-size: cover;
 }
 
@@ -78,7 +55,7 @@ h4 {
 
     box-shadow: 5px 5px 0 #000000;
 
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
 }
 
 #theme{
@@ -97,8 +74,8 @@ h4 {
 }
 
 #theme img{
-    width: auto;
-    height: 30vw;
+    width: 80%;
+    height: auto;
     margin: -2% 0;
 }
 
@@ -169,6 +146,7 @@ h4 {
 
 #sns p{
     color: #ffffff;
+    font-size: 24px;
 }
 
 #sns hr{
@@ -181,24 +159,11 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 #sns .sns-logo img{
-    height: 2rem;
-}
-
-footer{
-    background-color: #677156;
-
-    overflow: hidden;
-}
-footer p{
-    color: #ffffff;
-}
-
-footer .contents{
-    margin: 10% 0;
-
+    height: 2.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -246,6 +211,13 @@ h2{
 }
 #sns .contents{
     padding: 0 5%;
+}
+#sns p{
+    color: #ffffff;
+    font-size: 17px;
+}
+#sns .sns-logo{
+    gap: 20px;
 }
 #sns .sns-logo img{
     height: 1.5rem;

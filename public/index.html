@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,24 +15,23 @@
     <script src="./js/common.js"></script>
     <script src="./js/index.js"></script>
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/top.css" />
   </head>
   <body>
-    <div id="first-view" class="first-view"></div>
     <header class="header">
       <div class="header_title">
         <a href="#" class="header_logo_a">
           <img
-            src="./image/index/main_logo.png"
+            src="./image/common/main_logo.webp"
             alt="メインロゴ"
             class="header_logo"
         /></a>
         <a href="#" class="navi_element">GEIKO SAI 2023</a>
       </div>
       <div class="navi" id="hamburgerMenu">
-        <a href="./about/index.html" class="navi_element">ABOUT</a>
-        <a href="./event/index.html" class="navi_element">EVENT</a>
+        <a href="./about/about.html" class="navi_element">ABOUT</a>
+        <a href="./event/stage.html" class="navi_element">EVENT</a>
         <a href="./cm/movie.html" class="navi_element">CM</a>
       </div>
       <!-- ハンバーガーメニュー -->
@@ -49,13 +48,13 @@
               <div class="neon-line"></div>
               <ul class="navigation_ul">
                 <li>
-                  <a href="./about/index.html#theme">テーマ</a>
+                  <a href="./about/about.html#theme">テーマ</a>
                 </li>
                 <li>
-                  <a href="./about/index.html#access">アクセス</a>
+                  <a href="./about/about.html#access">アクセス</a>
                 </li>
                 <li>
-                  <a href="./about/index.html#sns">SNS</a>
+                  <a href="./about/about.html#sns">SNS</a>
                 </li>
               </ul>
             </div>
@@ -66,10 +65,10 @@
               <div class="neon-line" style="height: 120px"></div>
               <ul class="navigation_ul">
                 <li>
-                  <a href="./event/index.html">ステージ</a>
+                  <a href="./event/stage.html">ステージ</a>
                 </li>
                 <li>
-                  <a href="./event/workshop.html">ワークショップ</a>
+                  <a href="./event/ws.html">ワークショップ</a>
                 </li>
                 <li>
                   <a href="./event/booth.html">ブース</a>
@@ -95,18 +94,34 @@
             </div>
           </div>
           <div style="width: 45%"></div>
-          <div class="navigation_img">
-            <img src="./image/index/instagram.png" alt="インスタアイコン" />
-            <img src="./image/index/twitter.png" alt="twitterアイコン" />
-            <img src="./image/index/tiktok.png" alt="tiktokアイコン" />
+          <div class="navigation-img">
+            <a
+              href="https://www.instagram.com/geiko_sai_2023/"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img src="./image/common/logo_insta.svg" alt="インスタ"
+            /></a>
+            <a 
+              href="https://twitter.com/geik0"
+              target="_blank"
+              rel="no-referrer noopener"
+              ><img src="./image/common/logo_x.svg" alt="x" 
+            /></a>
+            <a
+              href="https://www.tiktok.com/@geiko_2023"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img src="./image/common/logo_tiktok.svg" alt="tiktok"
+            /></a>
           </div>
         </div>
       </nav>
     </header>
     <main>
       <div class="top-logo">
+        <div id="first-view" class="first-view"></div>
         <img
-          src="./image/index/main_logo.png"
+          src="./image/common/logo_main-deco.webp"
           alt="メインロゴ"
           class="top-img"
         />
@@ -133,31 +148,67 @@
       <div class="indexs">
         <div class="indexs-and-sns">
           <div class="index-list">
-            <div class="index-theme">テーマ説明</div>
-            <div class="index-access">アクセス</div>
-            <div class="index-stage">ステージ</div>
-            <div class="index-cafe">カフェ</div>
-            <div class="index-workshop">ワークショップ</div>
-            <div class="index-booth">ブース</div>
-            <div class="index-game">ゲーム</div>
-            <div class="index-cm">CM</div>
-            <div class="index-goods">グッズ</div>
+            <a href="./about/about.html#theme" class="index-theme">
+              <img src = "image/index/icon_about.svg" alt = "icon_about">
+              <p>芸工祭について</p>
+            </a>
+            <a href = "about/about.html#access" class="index-access">
+              <img src = "image/index/icon_access.svg">
+              <p>アクセス</p>
+            </a>
+            <a href="./event/stage.html" class="index-stage">
+              <img src="./image/index/icon_stage.svg">
+              <p>ステージ</p>
+            </a>
+            <a href = "event/cafe.html" class="index-cafe">
+              <img src = "./image/index/icon_cafe.svg">
+              <p>カフェ</p>
+            </a>
+            <a href = "./event/ws.html" class="index-workshop">
+              <img src = "./image/index/icon_ws.svg">
+              <p>ﾜ-ｸｼｮｯﾌﾟ</p>
+            </a>
+            <a href = "./event/booth.html" class="index-booth">
+              <img src="./image/index/icon_booth.svg">
+              <p>ブース</p>
+            </a>
+            <a href = "" class="index-game">
+              <img src="./image/index/icon_game.svg">
+              <p>ゲーム</p>
+            </a>
+            <a href = "./cm/movie.html" class="index-cm">
+              <img src="./image/index/icon_cm.svg">
+              <p>CM</p>
+            </a>
+            <a href="./cm/goods.html" class="index-goods">
+              <img src="./image/index/icon_goods.svg">
+              <p>グッズ</p>
+            </a>
           </div>
-          <div class="follow-us">
-            <p>FOLLOW US</p>
-            <div class="center-bar">
-              <span></span>
-            </div>
-            <div class="sns-imgs">
-              <img
-                src="./image/index/instagram-black.png"
-                alt="インスタアイコン"
-              />
-              <img
-                src="./image/index/instagram-black.png"
-                alt="インスタアイコン"
-              />
-              <img src="./image/index/tiktok.png" alt="tiktokアイコン" />
+          <div id="sns">
+            <div class="contents">
+              <p>FOLLOW US</p>
+              <hr noshade=""/>
+              <div class="sns-logo">
+                <a
+                  href="https://www.instagram.com/geiko_sai_2023/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img src="./image/common/logo_insta.svg" alt="インスタ"
+                /></a>
+                <a 
+                  href="https://twitter.com/geik0"
+                  target="_blank"
+                  rel="no-referrer noopener"
+                  ><img src="./image/common/logo_x.svg" alt="x" 
+                /></a>
+                <a
+                  href="https://www.tiktok.com/@geiko_2023"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img src="./image/common/logo_tiktok.svg" alt="tiktok"
+                /></a>
+              </div>
             </div>
           </div>
         </div>
