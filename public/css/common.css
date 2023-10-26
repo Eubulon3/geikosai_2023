@@ -41,7 +41,6 @@ a{
 
 p {
   font-size: 17px;
-  font-family: "normalfont2";
 }
 h2 {
   font-size: 25px;
@@ -252,6 +251,7 @@ h4 {
 }
 .footer a{
   text-decoration: underline;
+  color: #ffffff;
 }
 .footer p span {
   display: inline-block;
@@ -318,6 +318,7 @@ h4 {
 .top .second-nav a {
   width: 23%;
   text-decoration: none;
+  color: #ffffff;
 }
 
 .top .second-nav-box {

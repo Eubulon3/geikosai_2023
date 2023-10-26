@@ -114,20 +114,6 @@ a{
     background-size: cover;
 }
 
-footer{
-    background-color: #677156;
-
-    overflow: hidden;
-}
-footer p{
-    color: #ffffff;
-}
-
-footer .contents{
-    margin: 10% 0;
-
-}
-
 @media screen and (max-width: 768px) {
 .goods .contents{
     gap: 30px;
