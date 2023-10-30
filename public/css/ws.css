@@ -1,204 +1,226 @@
-.top{
-    width: 100%;
-    overflow: hidden;
+.top {
+  width: 100%;
+  overflow: hidden;
 
-    margin-top: 70px;
+  margin-top: 70px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #313153;
+  background-color: #313153;
 
-    border-bottom: thin solid #fefef5;
-    box-sizing: border-box;
+  border-bottom: thin solid #fefef5;
+  box-sizing: border-box;
 
-    box-shadow: 0 0 5px #fdc25a;
+  box-shadow: 0 0 5px #fdc25a;
 
-    background-image: url("../image/common/bg_neon.webp");
-    background-size: cover;
+  background-image: url("../image/common/bg_neon.webp");
+  background-size: cover;
 }
 
-.top h2{
-    margin-top: 5%;
+.top h2 {
+  margin-top: 5%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    color: #ffffff;
+  /* color: #ffffff; */
 }
 
-.top .second-nav{
-    margin: 4% 0;
-    width: 95%;
+.top .second-nav {
+  margin: 4% 0;
+  width: 95%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.top .second-nav a{
-    width: 23%;
+.top .second-nav a {
+  width: 23%;
 }
 
-.top .second-nav-box{
-    width: 100%;
+.top .second-nav-box {
+  width: 100%;
 
-    background-color: #ffffff;
+  background-color: #ffffff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    border: medium solid #000000;
+  border: medium solid #000000;
 
-    box-shadow: 5px 5px 0 #000000;
-
+  box-shadow: 5px 5px 0 #000000;
 }
 
-.second-nav a:nth-child(3) .second-nav-box{
-    background-color: #fdc25a;
+.second-nav a:nth-child(3) .second-nav-box {
+  background-color: #fdc25a;
 }
 
-.top .second-nav-box p{
-    padding: 0.5rem 0;
-    font-size: 1rem;
-    font-weight: 300;
+.top .second-nav-box p {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 300;
 
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
-.ws{
-    background-color: #313153;
-    color: #ffffff;
-
-    overflow: hidden;
-
-    padding: 10% 7%;
-
+.title-workshop {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+.title-workshop h2 {
+  font-size: 40px;
+  color: #eb3e37;
+  position: relative;
+}
+.title-workshop h2::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  color: #fff2d8;
+  font-size: 40px;
+  content: "WORKSHOP";
+}
+.title-workshop div {
+  position: relative;
 }
 
-.ws .contents{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.ws {
+  background-color: #313153;
+  color: #ffffff;
+
+  overflow: hidden;
+
+  padding: 10% 7%;
 }
 
-.ws .box{
-    width: 65%;
-    height: auto;
-    aspect-ratio: 1;
-
-    background-color: #fefef5;
-
-    margin-top: 10%;
+.ws .contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.ws-1, .ws-2, .ws-3{
-    margin-top: 10%;
+.ws .box {
+  width: 65%;
+  height: auto;
+  aspect-ratio: 1;
+
+  background-color: #fefef5;
+
+  margin-top: 10%;
 }
 
-.ws-1 .head-container{
-    background-color: #eb3e37;
-    padding: 3%;
-}
-.ws-2 .head-container{
-    background-color: #ffc34f;
-    padding: 3%;
-}
-.ws-3 .head-container{
-    background-color: #677156;
-    padding: 3%;
+.ws-1,
+.ws-2,
+.ws-3 {
+  margin-top: 10%;
 }
 
-.ws-1 .img-container{
-    background-image: url("../image/event/ws/ws-1-bg.webp");
-    background-size: cover;
-    background-position: center;
+.ws-1 .head-container {
+  background-color: #eb3e37;
+  padding: 3%;
 }
-.ws-2 .img-container{
-    background-image: url("../image/event/ws/ws-2-bg.webp");
-    background-size: cover;
-    background-position: center;
+.ws-2 .head-container {
+  background-color: #ffc34f;
+  padding: 3%;
 }
-.ws-3 .img-container{
-    background-image: url("../image/event/ws/ws-3-bg.webp");
-    background-size: cover;
-    background-position: center;
+.ws-3 .head-container {
+  background-color: #677156;
+  padding: 3%;
 }
 
-.img-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    padding: 0 5%;
+.ws-1 .img-container {
+  background-image: url("../image/event/ws/ws-1-bg.webp");
+  background-size: cover;
+  background-position: center;
+}
+.ws-2 .img-container {
+  background-image: url("../image/event/ws/ws-2-bg.webp");
+  background-size: cover;
+  background-position: center;
+}
+.ws-3 .img-container {
+  background-image: url("../image/event/ws/ws-3-bg.webp");
+  background-size: cover;
+  background-position: center;
 }
 
-.discription p{
-    margin-bottom: 5%;
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 5%;
 }
 
-.img-container .details{
-    width: 50%;
-
-    display: flex;
-    flex-direction: column;
-    
+.discription p {
+  margin-bottom: 5%;
 }
 
-.img-container div{
-    display: flex;
+.img-container .details {
+  width: 50%;
 
-    column-gap: 10px;
-
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.img-container .icon{
-    height: 2rem;
+.img-container div {
+  display: flex;
+
+  column-gap: 10px;
+
+  margin-top: 10px;
+}
+
+.img-container .icon {
+  height: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-.top{
+  .top {
     margin-top: 70px;
+  }
 }
-}
 
-
-
-@media screen and (max-width:480px){
-p {
+@media screen and (max-width: 480px) {
+  p {
     font-size: 16px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 23px;
-}
+  }
 
-.top .second-nav{
+  .top .second-nav {
     width: 80%;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
     row-gap: 10px;
-}
+  }
 
-.top .second-nav a{
+  .top .second-nav a {
     width: 45%;
-}
+  }
 
-.top .second-nav-box{
+  .top .second-nav-box {
     width: 100%;
-}
+  }
 
-.ws{
+  .ws {
     padding: 10%;
-}
-.ws .box{
+  }
+  .ws .box {
     width: 80%;
     height: auto;
     aspect-ratio: 1;
@@ -206,21 +228,20 @@ h2{
     background-color: #fefef5;
 
     margin-top: 10%;
-}
-}
-
-
-.cm{
-    background-color: #313153;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    margin-top: 10%;
-  
-    overflow: visible;
   }
-  iframe{
-    width: 100%;
-    aspect-ratio: 16/9;
-  }
+}
+
+.cm {
+  background-color: #313153;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 10%;
+
+  overflow: visible;
+}
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}

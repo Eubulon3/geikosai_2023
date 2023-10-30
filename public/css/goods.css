@@ -1,141 +1,165 @@
-a{
-    text-decoration: none;
-    color: #000000;
+a {
+  text-decoration: none;
+  color: #000000;
 }
-.top{
-    width: 100%;
-    overflow: hidden;
+.top {
+  width: 100%;
+  overflow: hidden;
 
-    margin-top: 80px;
+  margin-top: 80px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #313153;
+  background-color: #313153;
 
-    border-bottom: thin solid #fefef5;
-    box-sizing: border-box;
+  border-bottom: thin solid #fefef5;
+  box-sizing: border-box;
 
-    box-shadow: 0 0 5px #fdc25a;
+  box-shadow: 0 0 5px #fdc25a;
 
-    background-image: url("../image/common/bg_neon.webp");
-    background-size: cover;
-}
-
-.top h2{
-    margin-top: 5%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: #ffffff;
+  background-image: url("../image/common/bg_neon.webp");
+  background-size: cover;
 }
 
-.top .second-nav{
-    margin: 4% 0;
-    width: 95%;
+.top h2 {
+  margin-top: 5%;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
 }
 
-.top .second-nav a{
-    width: 30%;
-}
-.top .second-nav-box{
-    width: 100%;
+.top .second-nav {
+  margin: 4% 0;
+  width: 95%;
 
-    background-color: #ffffff;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border: medium solid #000000;
-
-    box-shadow: 5px 5px 0 #000000;
-
-    /* padding: 0.5rem; */
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-.second-nav a:last-child .second-nav-box{
-    background-color: #fdc25a;
+.top .second-nav a {
+  width: 30%;
+}
+.top .second-nav-box {
+  width: 100%;
+
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: medium solid #000000;
+
+  box-shadow: 5px 5px 0 #000000;
+
+  /* padding: 0.5rem; */
 }
 
-.goods{
-    padding: 10% 7%;
-
-    background-color: #313153;
+.second-nav a:last-child .second-nav-box {
+  background-color: #fdc25a;
 }
 
-.goods h2{
-    color: #ffffff;
+.title-cm {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 5%;
+}
+.title-cm h2 {
+  font-size: 40px;
+  color: #eb3e37;
+  position: relative;
+}
+.title-cm h2::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  color: #fff2d8;
+  font-size: 40px;
+  content: "CM";
+}
+.title-cm div {
+  position: relative;
 }
 
-.goods .contents{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.goods {
+  padding: 10% 7%;
 
-    margin-top: 5%;
-
-    gap: 40px;
+  background-color: #313153;
 }
 
-.goods .contents::after{
-    content: "";
-    display: block;
-    width: 29%;
+.goods h2 {
+  color: #ffffff;
 }
 
-.area{
-    width: 29%;
-    /* ↓仮 */
-    height: auto;
+.goods .contents {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  margin-top: 5%;
+
+  gap: 40px;
 }
 
-.area p{
-    text-align: left;
-    color: #ffffff;
+.goods .contents::after {
+  content: "";
+  display: block;
+  width: 29%;
 }
 
-.area p span{
-    font-weight: bold;
+.area {
+  width: 29%;
+  /* ↓仮 */
+  height: auto;
 }
 
-.goods-container{
-    width: 100%;
-    aspect-ratio: 1;
+.area p {
+  text-align: left;
+  color: #ffffff;
+}
 
-    background-image: url("../image/goods/goods.png");
-    background-size: cover;
+.area p span {
+  font-weight: bold;
+}
+
+.goods-container {
+  width: 100%;
+  aspect-ratio: 1;
+
+  background-image: url("../image/goods/goods.png");
+  background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
-.goods .contents{
+  .goods .contents {
     gap: 30px;
-}
-.area{
+  }
+  .area {
     width: 45%;
-}
-.top{
+  }
+  .top {
     margin-top: 70px;
-}
+  }
 }
 
-@media screen and (max-width:480px){
-p {
+@media screen and (max-width: 480px) {
+  p {
     font-size: 16px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 23px;
-}
-.area{
+  }
+  .area {
     width: 100%;
+  }
 }
-}
-  

@@ -1,182 +1,211 @@
-.top{
-    width: 100%;
-    overflow: hidden;
+.top {
+  width: 100%;
+  overflow: hidden;
 
-    margin-top: 70px;
+  margin-top: 70px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #313153;
+  background-color: #313153;
 
-    border-bottom: thin solid #fefef5;
-    box-sizing: border-box;
+  border-bottom: thin solid #fefef5;
+  box-sizing: border-box;
 
-    box-shadow: 0 0 5px #fdc25a;
+  box-shadow: 0 0 5px #fdc25a;
 
-    background-image: url("../image/common/bg_neon.webp");
-    background-size: cover;
+  background-image: url("../image/common/bg_neon.webp");
+  background-size: cover;
 }
 
-.top h2{
-    margin-top: 5%;
+.top h2 {
+  margin-top: 5%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    color: #ffffff;
+  /* color: #ffffff; */
 }
 
-.top .second-nav{
-    margin: 4% 0;
-    width: 95%;
+.top .second-nav {
+  margin: 4% 0;
+  width: 95%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.top .second-nav a{
-    width: 23%;
+.top .second-nav a {
+  width: 23%;
 }
 
-.top .second-nav-box{
-    width: 100%;
+.top .second-nav-box {
+  width: 100%;
 
-    background-color: #ffffff;
+  background-color: #ffffff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    border: medium solid #000000;
+  border: medium solid #000000;
 
-    box-shadow: 5px 5px 0 #000000;
-
+  box-shadow: 5px 5px 0 #000000;
 }
 
-.second-nav a:last-child .second-nav-box{
-    background-color: #fdc25a;
+.second-nav a:last-child .second-nav-box {
+  background-color: #fdc25a;
 }
 
-.top .second-nav-box p{
-    padding: 0.5rem 0;
-    font-size: 1rem;
-    font-weight: 300;
+.top .second-nav-box p {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 300;
 
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
-.booth{
-    position: relative;
-    background-color: #313153;
-    color: #ffffff;
-
-    overflow: hidden;
-
-    padding: 10%;
+.title-booth {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
 }
-
-.booth .store-button{
-    background-color: #e8403d;
-    position: absolute;
-
-    top: 5%;
-    right: 5%;
-
-    width: 25%;
-    border: medium solid #000000;
-
-    box-shadow: 5px 5px 0 #000000;
-
-    padding: 1rem 0;
-    margin-left: 70%;
-}
-
-.booth .store-button p{
-    font-weight: bolder;
-}
-.booth .contents h2{
-    margin-top: 10%;
-}
-.booth .contents p{
-    margin-top: 20px;
-}
-.booth .contents span{
-    display: inline-block;
-    color: #fdc25a;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    font-size: large;
-    font-weight: bold;
-}
-.booth .container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.booth .solo-container, .booth .disco-container, .booth .works-container{
-    width: 80%;
-    height: auto;
-
-    margin-top: 5%;
-}
-
-.booth .solo-container img, .booth .disco-container img, .booth .works-container img{
-    width: 100%;
-}
-
-.cm{
-    background-color: #313153;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    margin-top: 10%;
+.title-booth h2 {
+  font-size: 40px;
+  color: #eb3e37;
+  position: relative;
   
-    overflow: visible;
-  }
-  iframe{
-    width: 100%;
-    aspect-ratio: 16/9;
-  }
+}
+.title-booth h2::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  color: #fff2d8;
+  font-size: 40px;
+  content: "BOOTH";
+}
+.title-booth div {
+  position: relative;
+}
 
-@media screen and (max-width:480px){
-p {
+.booth {
+  position: relative;
+  background-color: #313153;
+  color: #ffffff;
+
+  overflow: hidden;
+
+  padding: 10%;
+}
+
+.booth .store-button {
+  background-color: #e8403d;
+  position: absolute;
+
+  top: 5%;
+  right: 5%;
+
+  width: 25%;
+  border: medium solid #000000;
+
+  box-shadow: 5px 5px 0 #000000;
+
+  padding: 1rem 0;
+  margin-left: 70%;
+}
+
+.booth .store-button p {
+  font-weight: bolder;
+}
+.booth .contents h2 {
+  margin-top: 10%;
+}
+.booth .contents p {
+  margin-top: 20px;
+}
+.booth .contents span {
+  display: inline-block;
+  color: #fdc25a;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: large;
+  font-weight: bold;
+}
+.booth .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booth .solo-container,
+.booth .disco-container,
+.booth .works-container {
+  width: 80%;
+  height: auto;
+
+  margin-top: 5%;
+}
+
+.booth .solo-container img,
+.booth .disco-container img,
+.booth .works-container img {
+  width: 100%;
+}
+
+.cm {
+  background-color: #313153;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 10%;
+
+  overflow: visible;
+}
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 480px) {
+  p {
     font-size: 16px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 23px;
-}
+  }
 
-.top .second-nav{
+  .top .second-nav {
     width: 80%;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
     row-gap: 10px;
-}
+  }
 
-.top .second-nav a{
+  .top .second-nav a {
     width: 45%;
-}
+  }
 
-.top .second-nav-box{
+  .top .second-nav-box {
     width: 100%;
-}
+  }
 
-.booth{
+  .booth {
     padding: 10%;
-}
+  }
 
-.booth .store-button{
+  .booth .store-button {
     position: relative;
     width: 50%;
     padding: 0.5rem;
@@ -184,12 +213,12 @@ h2{
     top: 0;
     right: 0;
 
-
-
     margin: 5% 0 5% 50%;
     transform: translate(-50%);
-}
-.booth .solo-container, .booth .disco-container, .booth .works-container{
+  }
+  .booth .solo-container,
+  .booth .disco-container,
+  .booth .works-container {
     width: 100%;
-}
+  }
 }

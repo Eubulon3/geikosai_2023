@@ -1,268 +1,290 @@
-.top{
-    width: 100%;
-    overflow: hidden;
+.top {
+  width: 100%;
+  overflow: hidden;
 
-    margin-top: 70px;
+  margin-top: 70px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #313153;
+  background-color: #313153;
 
-    border-bottom: thin solid #fefef5;
-    box-sizing: border-box;
+  border-bottom: thin solid #fefef5;
+  box-sizing: border-box;
 
-    box-shadow: 0 0 5px #fdc25a;
+  box-shadow: 0 0 5px #fdc25a;
 
-    background-image: url("../image/common/bg_neon.webp");
-    background-size: cover;
+  background-image: url("../image/common/bg_neon.webp");
+  background-size: cover;
 }
 
-.top h2{
-    margin-top: 5%;
+.top h2 {
+  margin-top: 5%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    color: #ffffff;
+  /* color: #ffffff; */
 }
 
-.top .second-nav{
-    margin: 4% 0;
-    width: 95%;
+.top .second-nav {
+  margin: 4% 0;
+  width: 95%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.top .second-nav a{
-    width: 23%;
+.top .second-nav a {
+  width: 23%;
 }
 
-.top .second-nav-box{
-    width: 100%;
+.top .second-nav-box {
+  width: 100%;
 
-    background-color: #ffffff;
+  background-color: #ffffff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    border: medium solid #000000;
+  border: medium solid #000000;
 
-    box-shadow: 5px 5px 0 #000000;
-
+  box-shadow: 5px 5px 0 #000000;
 }
 
-.second-nav a:last-child .second-nav-box{
-    background-color: #fdc25a;
+.second-nav a:last-child .second-nav-box {
+  background-color: #fdc25a;
 }
 
-.top .second-nav-box p{
-    padding: 0.5rem 0;
-    font-size: 1rem;
-    font-weight: 300;
+.top .second-nav-box p {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 300;
 
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
-.booth{
-    background-color: #313153;
-    color: #ffffff;
-
-    overflow: hidden;
-
-    padding: 10%;
+.title-booth {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+.title-booth h2 {
+  font-size: 40px;
+  color: #eb3e37;
+  position: relative;
+}
+.title-booth h2::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  color: #fff2d8;
+  font-size: 40px;
+  content: "BOOTH";
+}
+.title-booth div {
+  position: relative;
 }
 
-.booth .stores h2{
-    margin-top: 3%;
+.booth {
+  background-color: #313153;
+  color: #ffffff;
+
+  overflow: hidden;
+
+  padding: 10%;
 }
 
-.booth .stores p{
-    margin-top: 0.5rem;
+.booth .stores h2 {
+  margin-top: 3%;
 }
 
-.stores .contents{
-    width: 100%;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.booth .stores p {
+  margin-top: 0.5rem;
 }
 
-.stores .contents p{
-    color: #000000;
+.stores .contents {
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
-.stores .contents .shadow{
-    width: 30%;
-    align-items: stretch;
-
-    display: flex;
-
-    margin-top: 5%;
-
-    transform: translate(14px, 14px);
+.stores .contents p {
+  color: #000000;
 }
 
-.stores .contents .store{
-    width: 100%;
-    align-items: stretch;
-    background-color: #ffffff;
+.stores .contents .shadow {
+  width: 30%;
+  align-items: stretch;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
 
-    border-radius: 3%;
-    border: medium solid #000000;
+  margin-top: 5%;
 
-    overflow: visible;
-
-    transform: translate(-14px, -14px);
-
-    padding: 10% 5%;
+  transform: translate(14px, 14px);
 }
 
-.stores .contents .shadow .store .icon-container{
-    width: 30%;
-    aspect-ratio: 1;
+.stores .contents .store {
+  width: 100%;
+  align-items: stretch;
+  background-color: #ffffff;
 
-    margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #dddddd;
+  border-radius: 3%;
+  border: medium solid #000000;
 
-    border-radius: 100%;
+  overflow: visible;
 
-    background-size: cover;
+  transform: translate(-14px, -14px);
 
-    border: medium solid #fdc25a;
-}
-
-.stores .contents .shadow:nth-child(1) .store .icon-container{
-    background-image: url("../image/event/booth/geiko\ records.webp");
-}
-
-.stores .contents .shadow:nth-child(2) .store .icon-container{
-    background-image: url("../image/event/booth/karaage.webp");
-}
-.stores .contents .shadow:nth-child(3) .store .icon-container{
-    background-image: url("../image/event/booth/neoncharm.webp");
-}
-.stores .contents .shadow:nth-child(4) .store .icon-container{
-    background-image: url("../image/event/booth/nfab.webp");
-}
-.stores .contents .shadow:nth-child(5) .store .icon-container{
-    background-image: url("../image/event/booth/omucheki.webp");
-}
-.stores .contents .shadow:nth-child(6) .store .icon-container{
-    background-image: url("../image/event/booth/orasa.webp");
-}
-.stores .contents .shadow:nth-child(7) .store .icon-container{
-    background-image: url("../image/event/booth/pdf.webp");
-}
-.stores .contents .shadow:nth-child(8) .store .icon-container{
-    background-image: url("../image/event/booth/uranaiuranai.webp");
-}
-.stores .contents .shadow:nth-child(9) .store .icon-container{
-    background-image: url("../image/event/booth/gocchaya.webp");
-}
-.stores .contents .shadow:nth-child(10) .store .icon-container{
-    background-image: url("../image/event/booth/junkminoru.webp");
-}
-.stores .contents .shadow:nth-child(11) .store .icon-container{
-    background-image: url("../image/event/booth/takoaru.webp");
-}
-.stores .contents .shadow:nth-child(12) .store .icon-container{
-    background-image: url("../image/event/booth/toa.webp");
-}
-.stores .contents .shadow:nth-child(13) .store .icon-container{
-    background-image: url("../image/event/booth/pegopa.webp");
-}
-.stores .contents .shadow:nth-child(14) .store .icon-container{
-    background-image: url("../image/event/booth/maruya.webp");
-}
-.stores .contents .shadow:nth-child(15) .store .icon-container{
-    background-image: url("../image/event/booth/yodasuto.webp");
-}
-.stores .contents .shadow:nth-child(16) .store .icon-container{
-    background-image: url("../image/event/booth/zakka.webp");
-}
-.stores .contents .shadow:nth-child(17) .store .icon-container{
-    background-image: url("../image/event/booth/yamamoto.webp");
-}
-.stores .contents .shadow:nth-child(18) .store .icon-container{
-    background-image: url("../image/event/booth/tobihiza.webp");
-}
-.stores .contents .shadow:nth-child(19) .store .icon-container{
-    background-image: url("../image/event/booth/tobihiza.webp");
+  padding: 10% 5%;
 }
 
-.stores .contents .shadow:nth-child(2n+1){
-    background-image: url("../image/event/booth/polka-pink.webp");
-    background-size: cover;
+.stores .contents .shadow .store .icon-container {
+  width: 30%;
+  aspect-ratio: 1;
+
+  margin-top: 0.5rem;
+
+  background-color: #dddddd;
+
+  border-radius: 100%;
+
+  background-size: cover;
+
+  border: medium solid #fdc25a;
 }
 
-.stores .contents .shadow:nth-child(2n){
-    background-image: url("../image/event/booth/polka-yellow.webp");
-    background-size: cover;
+.stores .contents .shadow:nth-child(1) .store .icon-container {
+  background-image: url("../image/event/booth/geiko\ records.webp");
 }
 
-.stores .contents .shadow .store .name{
-    margin-top: 5%;
-    font-weight: bold;
+.stores .contents .shadow:nth-child(2) .store .icon-container {
+  background-image: url("../image/event/booth/karaage.webp");
+}
+.stores .contents .shadow:nth-child(3) .store .icon-container {
+  background-image: url("../image/event/booth/neoncharm.webp");
+}
+.stores .contents .shadow:nth-child(4) .store .icon-container {
+  background-image: url("../image/event/booth/nfab.webp");
+}
+.stores .contents .shadow:nth-child(5) .store .icon-container {
+  background-image: url("../image/event/booth/omucheki.webp");
+}
+.stores .contents .shadow:nth-child(6) .store .icon-container {
+  background-image: url("../image/event/booth/orasa.webp");
+}
+.stores .contents .shadow:nth-child(7) .store .icon-container {
+  background-image: url("../image/event/booth/pdf.webp");
+}
+.stores .contents .shadow:nth-child(8) .store .icon-container {
+  background-image: url("../image/event/booth/uranaiuranai.webp");
+}
+.stores .contents .shadow:nth-child(9) .store .icon-container {
+  background-image: url("../image/event/booth/gocchaya.webp");
+}
+.stores .contents .shadow:nth-child(10) .store .icon-container {
+  background-image: url("../image/event/booth/junkminoru.webp");
+}
+.stores .contents .shadow:nth-child(11) .store .icon-container {
+  background-image: url("../image/event/booth/takoaru.webp");
+}
+.stores .contents .shadow:nth-child(12) .store .icon-container {
+  background-image: url("../image/event/booth/toa.webp");
+}
+.stores .contents .shadow:nth-child(13) .store .icon-container {
+  background-image: url("../image/event/booth/pegopa.webp");
+}
+.stores .contents .shadow:nth-child(14) .store .icon-container {
+  background-image: url("../image/event/booth/maruya.webp");
+}
+.stores .contents .shadow:nth-child(15) .store .icon-container {
+  background-image: url("../image/event/booth/yodasuto.webp");
+}
+.stores .contents .shadow:nth-child(16) .store .icon-container {
+  background-image: url("../image/event/booth/zakka.webp");
+}
+.stores .contents .shadow:nth-child(17) .store .icon-container {
+  background-image: url("../image/event/booth/yamamoto.webp");
+}
+.stores .contents .shadow:nth-child(18) .store .icon-container {
+  background-image: url("../image/event/booth/tobihiza.webp");
+}
+.stores .contents .shadow:nth-child(19) .store .icon-container {
+  background-image: url("../image/event/booth/tobihiza.webp");
 }
 
-.stores .contents .shadow .store p:last-child{
-    line-height: 1.5;
-    font-size: small;
+.stores .contents .shadow:nth-child(2n + 1) {
+  background-image: url("../image/event/booth/polka-pink.webp");
+  background-size: cover;
 }
 
-@media screen and (max-width: 1100px){
-.stores .contents .shadow{
+.stores .contents .shadow:nth-child(2n) {
+  background-image: url("../image/event/booth/polka-yellow.webp");
+  background-size: cover;
+}
+
+.stores .contents .shadow .store .name {
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.stores .contents .shadow .store p:last-child {
+  line-height: 1.5;
+  font-size: small;
+}
+
+@media screen and (max-width: 1100px) {
+  .stores .contents .shadow {
     width: 45%;
+  }
 }
-}
 
-
-
-@media screen and (max-width:480px){
-p {
+@media screen and (max-width: 480px) {
+  p {
     font-size: 16px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 23px;
-}
+  }
 
-.top .second-nav{
+  .top .second-nav {
     width: 80%;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
     row-gap: 10px;
-}
+  }
 
-.top .second-nav a{
+  .top .second-nav a {
     width: 45%;
-}
+  }
 
-.top .second-nav-box{
+  .top .second-nav-box {
     width: 100%;
-}
+  }
 
-.booth{
+  .booth {
     padding: 10%;
-}
+  }
 
-.stores .contents .shadow{
+  .stores .contents .shadow {
     width: 100%;
 
     margin-top: 8%;
-}
+  }
 }

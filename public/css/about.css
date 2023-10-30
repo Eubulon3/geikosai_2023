@@ -1,225 +1,251 @@
-.top{
-    width: 100%;
-    overflow: hidden;
+.top {
+  width: 100%;
+  overflow: hidden;
 
-    margin-top: 70px;
+  margin-top: 70px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #313153;
+  background-color: #313153;
 
-    border-bottom: thin solid #fefef5;
-    box-sizing: border-box;
+  border-bottom: thin solid #fefef5;
+  box-sizing: border-box;
 
-    box-shadow: 0 0 5px #fdc25a;
+  box-shadow: 0 0 5px #fdc25a;
 
-    background-image: url("../image/common/bg_neon.webp");
-    background-size: cover;
+  background-image: url("../image/common/bg_neon.webp");
+  background-size: cover;
 }
 
-.top h2{
-    margin-top: 5%;
+.top h2 {
+  margin-top: 5%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.top .second-nav{
-    margin: 4% 0;
-    width: 95%;
+.top .second-nav {
+  margin: 4% 0;
+  width: 95%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.top .second-nav a{
-    width: 30%;
+.top .second-nav a {
+  width: 30%;
 }
 
-.top .second-nav-box{
-    width: 100%;
+.top .second-nav-box {
+  width: 100%;
 
-    background-color: #ffffff;
+  background-color: #ffffff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    border: medium solid #000000;
+  border: medium solid #000000;
 
-    box-shadow: 5px 5px 0 #000000;
+  box-shadow: 5px 5px 0 #000000;
 
-    /* padding: 0.5rem; */
+  /* padding: 0.5rem; */
 }
 
-#theme{
-    background-color: #313153;
-    overflow: hidden;
-
-    padding: 10% 15%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.title-about {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 6%;
+}
+.title-about h2 {
+  font-size: 40px;
+  color: #eb3e37;
+  position: relative;
+}
+.title-about h2::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  color: #fff2d8;
+  font-size: 40px;
+  content: "ABOUT";
+}
+.title-about div {
+  position: relative;
 }
 
-#theme h2, #theme h3, #theme p{
-    color: #ffffff;
+#theme {
+  background-color: #313153;
+  overflow: hidden;
+
+  padding: 10% 15%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#theme img{
-    width: 80%;
-    height: auto;
-    margin: -2% 0;
+#theme h2,
+#theme h3,
+#theme p {
+  color: #ffffff;
 }
 
-#date{
-    width: 100%;
-
-    background-color: #fdc25a;
-
-    overflow: hidden;
+#theme img {
+  width: 80%;
+  height: auto;
+  margin: -2% 0;
 }
 
-#date p{
-    margin: 8% 0;
-    font-weight: bold;
+#date {
+  width: 100%;
+
+  background-color: #fdc25a;
+
+  overflow: hidden;
 }
 
-#access{
-    background-color: #313153;
-    overflow: hidden;
-
-    padding: 0 15%;
+#date p {
+  margin: 8% 0;
+  font-weight: bold;
 }
 
-#access h2, #access h3{
-    text-align: left;
-    color: #ffffff;
+#access {
+  background-color: #313153;
+  overflow: hidden;
+
+  padding: 0 15%;
 }
 
-.map{
-    margin-top: 10%;
-}
-.map-img{
-    width: 100%;
-    height: auto;
+#access h2,
+#access h3 {
+  text-align: left;
+  color: #ffffff;
 }
 
-.bus{
-    margin-top: 10%;
+.map {
+  margin-top: 10%;
 }
-.bus-img{
-    width: 100%;
-    height: auto;
-}
-
-.subway{
-    margin: 10% 0;
-}
-.subway-img{
-    width: 100%;
-    height: auto;
+.map-img {
+  width: 100%;
+  height: auto;
 }
 
-#sns{
-    background-color: #313153;
-
-    overflow: hidden;
+.bus {
+  margin-top: 10%;
+}
+.bus-img {
+  width: 100%;
+  height: auto;
 }
 
-#sns .contents{
-    margin: 20% 0;
-
-    padding: 0 15%;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.subway {
+  margin: 10% 0;
+}
+.subway-img {
+  width: 100%;
+  height: auto;
 }
 
-#sns p{
-    color: #ffffff;
-    font-size: 24px;
+#sns {
+  background-color: #313153;
+
+  overflow: hidden;
 }
 
-#sns hr{
-    width: 10%;
+#sns .contents {
+  margin: 20% 0;
+
+  padding: 0 15%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#sns .sns-logo{
-    width: 30%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+#sns p {
+  color: #ffffff;
+  font-size: 24px;
 }
 
-#sns .sns-logo img{
-    height: 2.5rem;
+#sns hr {
+  width: 10%;
+}
+
+#sns .sns-logo {
+  width: 30%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+#sns .sns-logo img {
+  height: 2.5rem;
 }
 
 @media screen and (max-width: 768px) {
-.top{
+  .top {
     margin-top: 70px;
-}
-.top .second-nav{
+  }
+  .top .second-nav {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
     row-gap: 10px;
+  }
 }
-}
 
-
-
-@media screen and (max-width:480px){
-p {
+@media screen and (max-width: 480px) {
+  p {
     font-size: 16px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 23px;
-}
+  }
 
-.top .second-nav{
+  .top .second-nav {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
     row-gap: 10px;
-}
+  }
 
-.top .second-nav a{
+  .top .second-nav a {
     width: 40%;
-}
-#theme{
+  }
+  #theme {
     padding: 10% 5%;
-}
-#theme img{
+  }
+  #theme img {
     width: 100%;
     height: auto;
-}
-#access{
+  }
+  #access {
     padding: 0 5%;
-}
-#sns .contents{
+  }
+  #sns .contents {
     padding: 0 5%;
-}
-#sns p{
+  }
+  #sns p {
     color: #ffffff;
     font-size: 17px;
-}
-#sns .sns-logo{
+  }
+  #sns .sns-logo {
     gap: 20px;
-}
-#sns .sns-logo img{
+  }
+  #sns .sns-logo img {
     height: 1.5rem;
-}
+  }
 }
