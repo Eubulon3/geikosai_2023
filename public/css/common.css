@@ -10,6 +10,10 @@
   font-family: "normalfont3";
   src: url("../font/ShinRetroMaruGothic-R.ttf") format("truetype");
 }
+@font-face{
+  font-family: "headFont";
+  src: url("../font/AnchorJack.ttf") format("truetype");
+}
 .ab-font {
   font-family: "ab-intore", sans-serif;
   font-weight: 400;
@@ -44,6 +48,7 @@ p {
 }
 h2 {
   font-size: 25px;
+  font-family: "headFont";
 }
 h3 {
   font-size: 20px;
