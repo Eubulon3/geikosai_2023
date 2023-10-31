@@ -149,8 +149,10 @@
   overflow: visible;
 
   transform: translate(-14px, -14px);
-
   padding: 10% 5%;
+  
+  /* snsが必要な時 */
+  /* padding: 10% 5% 15% 5%; */
 }
 
 .stores .contents .shadow .store .icon-container {
@@ -166,6 +168,19 @@
   background-size: cover;
 
   border: medium solid #fdc25a;
+}
+
+.sns-container{
+  position: absolute;
+  display: flex;
+  column-gap: 10px;
+  right: 30px;
+  bottom: 15px;
+}
+
+.stores .contents .shadow .store img {
+  height: 1.5rem;
+  filter: invert(100%);
 }
 
 .stores .contents .shadow:nth-child(1) .store .icon-container {
@@ -224,7 +239,7 @@
   background-image: url("../image/event/booth/tobihiza.webp");
 }
 .stores .contents .shadow:nth-child(19) .store .icon-container {
-  background-image: url("../image/event/booth/tobihiza.webp");
+  background-image: url("../image/event/booth/Larrys.webp");
 }
 
 .stores .contents .shadow:nth-child(2n + 1) {
@@ -242,7 +257,7 @@
   font-weight: bold;
 }
 
-.stores .contents .shadow .store p:last-child {
+.stores .discription{
   line-height: 1.5;
   font-size: small;
 }

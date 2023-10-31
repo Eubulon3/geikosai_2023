@@ -164,7 +164,8 @@
 }
 
 .discription p {
-  margin-bottom: 5%;
+    margin: 5% 0;
+    text-align: left;
 }
 
 .img-container .details {
