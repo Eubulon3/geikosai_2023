@@ -31,6 +31,9 @@
 body {
   margin: 0%;
 }
+html{
+  background-color:#313153
+}
 
 * {
   margin: 0;
@@ -45,16 +48,19 @@ a {
 
 p {
   font-size: 17px;
+  font-family: "normalfont3";
 }
 h2 {
   font-size: 25px;
-  font-family: "headFont";
+  font-family: "headFont", "normalfont1";
 }
 h3 {
   font-size: 20px;
+  font-family: "normalfont1";
 }
 h4 {
   font-size: 20px;
+  font-family: "normalfont1";
 }
 
 /* ヘッダー */
@@ -173,9 +179,9 @@ h4 {
   gap: 15%;
   padding-top: 15px;
 }
-.navigation p {
+.navigation a {
   color: #ffffff;
-  font-family: "normalfont3";
+  font-family: "headFont";
   margin: 0;
   display: inline-block;
   font-size: 30px;
@@ -184,14 +190,19 @@ h4 {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .navigation_ul li {
   padding-bottom: 5px;
   font-size: 17px;
+  display: flex;
 }
 .navigation_ul li a {
   color: #ffffff;
   text-decoration: none;
+  font-family: "normalfont1";
+  font-size: 20px;
 }
 .neon-line {
   width: 2.5px;
@@ -207,11 +218,11 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-top: 10%;
+  padding-top: 20%;
 }
 
 .navigation-img img {
-  height: 3rem;
+  height: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -342,9 +353,8 @@ h4 {
 } */
 
 .top .second-nav-box p {
-  padding: 0.5rem 0;
-  font-size: 1rem;
-  font-weight: bold;
+  padding: 0.7rem 0;
+  font-family: "normalfont1";
   text-decoration: none;
   color: #000000;
   margin: 0;

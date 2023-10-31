@@ -89,6 +89,9 @@ main{
 .menu-imgs img {
   width: 40%;
   aspect-ratio: 1/1;
+  border: thin solid #fefef5;
+
+  box-shadow: 0 0 5px #fefef5;
 }
 
 @media screen and (max-width: 768px) {

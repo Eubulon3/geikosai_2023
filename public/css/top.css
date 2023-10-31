@@ -172,6 +172,10 @@ text-decoration: none;
   background-position: left;
 }
 
+.indexs-and-sns p{
+  font-family: "normalfont1";
+}
+
 .index-access{
   background-image: url("../image/index/cafe_button_bg.webp");
   background-size: cover;

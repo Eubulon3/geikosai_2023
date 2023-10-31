@@ -59,16 +59,6 @@
 .second-nav a:last-child .second-nav-box {
   background-color: #fdc25a;
 }
-
-.top .second-nav-box p {
-  padding: 0.5rem 0;
-  font-size: 1rem;
-  font-weight: 300;
-
-  text-decoration: none;
-  color: #000000;
-}
-
 .title-booth {
   width: 300px;
   display: flex;
