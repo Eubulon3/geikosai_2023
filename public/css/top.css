@@ -134,6 +134,7 @@ text-decoration: none;
 
   border-radius: 8px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -167,7 +168,7 @@ text-decoration: none;
 }
 
 .index-theme{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-image: url("../image/index/theme_button_bg.webp");
   background-size: cover;
   background-position: left;
 }
@@ -177,13 +178,13 @@ text-decoration: none;
 }
 
 .index-access{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-image: url("../image/index/access_button_bg.webp");
   background-size: cover;
-  background-position: left;
+  background-position: center;
 }
 
 .index-stage{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-image: url("../image/index/stage_button_bg.webp");
   background-size: cover;
   background-position: left;
 }
@@ -195,7 +196,7 @@ text-decoration: none;
 }
 
 .index-workshop{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-image: url("../image/index/ws_button_bg.webp");
   background-size: cover;
   background-position: left;
 
@@ -208,13 +209,13 @@ text-decoration: none;
 }
 
 .index-game{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-image: url("../image/index/game_button_bg.webp");
   background-size: cover;
   background-position: left;
 }
 
 .index-cm{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-image: url("../image/index/cm_button_bg.webp");
   background-size: cover;
   background-position: left;
 }

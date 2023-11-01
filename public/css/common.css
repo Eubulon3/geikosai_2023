@@ -166,7 +166,7 @@ h4 {
   display: none;
 }
 .navigation_frame {
-  padding: 70px 20px 0px 35px;
+  padding: 70px 10px 0px 10px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -202,7 +202,7 @@ h4 {
   color: #ffffff;
   text-decoration: none;
   font-family: "normalfont1";
-  font-size: 20px;
+  font-size: 17px;
 }
 .neon-line {
   width: 2.5px;
