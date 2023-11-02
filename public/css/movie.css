@@ -112,7 +112,19 @@ a {
 }
 
 .movie h2 {
-  color: #ffffff;
+  position: relative;
+  color: #eb3e37;
+  font-size: 40px;
+}
+
+.movie h2::before {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  color: #fff2d8;
+  font-size: 40px;
+  content: "MOVIE";
 }
 
 .movie .contents {
@@ -132,15 +144,22 @@ a {
 
 .area p {
   color: #ffffff;
+  font-family: "normalfont1";
 }
 
 .movie-container {
-  height: auto;
+  width: 100%;
+  aspect-ratio: 16/9;
+
+  background-color: #000000;
+}
+.movie-container p{
+  padding-top: 25%;
 }
 
 iframe {
   width: 100%;
-  aspect-ratio: 16/9;
+  height: 100%;
 }
 
 footer {

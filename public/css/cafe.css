@@ -155,14 +155,32 @@ main{
 .cm{
   background-color: #313153;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
 
   padding: 10%;
+  
+  gap: 30px;
 
   overflow: visible;
 }
-iframe{
+.cm .area{
+  width: 100%;
+}
+.cm .area .movie-container{
+  background-color: #000000;
   width: 100%;
   aspect-ratio: 16/9;
+}
+
+.cm .area p{
+  font-family: "normalfont1";
+  color: #ffffff;
+}
+.cm .area .movie-container p{
+  padding-top: 25%;
+}
+iframe{
+  width: 100%;
+  height: 100%;
 }

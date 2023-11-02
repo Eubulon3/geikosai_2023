@@ -51,7 +51,7 @@ p {
   font-family: "normalfont3";
 }
 h2 {
-  font-size: 25px;
+  font-size: 40px;
   font-family: "headFont", "normalfont1";
 }
 h3 {
@@ -309,7 +309,6 @@ h4 {
 }
 
 .top h2 {
-  font-size: 25px;
   margin-top: 5%;
   margin-bottom: 0;
   display: flex;
@@ -369,7 +368,6 @@ h4 {
   position: relative;
 }
 .title-event h2 {
-  font-size: 40px;
   color: #eb3e37;
   position: relative;
 }
@@ -378,7 +376,6 @@ h4 {
   top: -3px;
   left: -3px;
   color: #fff2d8;
-  font-size: 40px;
   content: "EVENT";
 }
 
@@ -397,5 +394,11 @@ h4 {
 
   .top .second-nav-box {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2{
+    font-size: 30px;
   }
 }

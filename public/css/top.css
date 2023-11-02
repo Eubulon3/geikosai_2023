@@ -203,25 +203,25 @@ text-decoration: none;
 }
 
 .index-booth{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-image: url("../image/index/booth_button_bg.webp");
   background-size: cover;
-  background-position: left;
+  background-position: right;
 }
 
 .index-game{
-  background-image: url("../image/index/game_button_bg.webp");
+  background-color: #888;
   background-size: cover;
   background-position: left;
 }
 
 .index-cm{
-  background-image: url("../image/index/cm_button_bg.webp");
+  background-color: #888;
   background-size: cover;
   background-position: left;
 }
 
 .index-goods{
-  background-image: url("../image/index/cafe_button_bg.webp");
+  background-color: #888;
   background-size: cover;
   background-position: left;
 }

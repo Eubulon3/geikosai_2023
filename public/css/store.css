@@ -61,7 +61,7 @@
 }
 
 .top .second-nav-box p {
-  padding: 0.5rem 0;
+  padding: 0.7rem 0;
   font-size: 1rem;
   font-weight: 300;
 
@@ -78,7 +78,6 @@
   margin: 0 auto;
 }
 .title-booth h2 {
-  font-size: 40px;
   color: #eb3e37;
   position: relative;
 }
@@ -87,7 +86,6 @@
   top: -3px;
   left: -3px;
   color: #fff2d8;
-  font-size: 40px;
   content: "BOOTH";
 }
 .title-booth div {
@@ -150,9 +148,6 @@
 
   transform: translate(-14px, -14px);
   padding: 10% 5%;
-  
-  /* snsが必要な時 */
-  /* padding: 10% 5% 15% 5%; */
 }
 
 .stores .contents .shadow .store .icon-container {
@@ -171,16 +166,30 @@
 }
 
 .sns-container{
-  position: absolute;
-  display: flex;
-  column-gap: 10px;
+  margin-top: 5%;
+  padding: 5px;
   right: 30px;
-  bottom: 15px;
+  bottom: 10px;
+
+  width: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+
+  border-radius: 76px;
+  background: #313153;
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.29);
+}
+
+.booth .stores .cm_p{
+  margin-top: 0;
+  color: #ffffff;
 }
 
 .stores .contents .shadow .store img {
-  height: 1.5rem;
-  filter: invert(100%);
+  width: 1.5rem;
 }
 
 .stores .contents .shadow:nth-child(1) .store .icon-container {
@@ -268,15 +277,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+h2 {
+  font-size: 30px;
+}
+}
+
 @media screen and (max-width: 480px) {
   p {
     font-size: 16px;
   }
-
-  h2 {
-    font-size: 23px;
-  }
-
   .top .second-nav {
     width: 80%;
     flex-flow: row wrap;
