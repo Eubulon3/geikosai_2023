@@ -12,7 +12,7 @@ function onclickOneDay() {
   let onedaybutton = document.getElementById("day-1-button");
   let twodaybutton = document.getElementById("day-2-button");
   const target = document.querySelector("#targetImage");
-  const url = "../image/event/stage/stage_soon.png";
+  const url = "../image/event/stage/stage_day1.webp";
   target.src = url;
   onedaybutton.classList.add("delete-border-bottom");
   twodaybutton.classList.remove("delete-border-bottom");
@@ -23,7 +23,7 @@ function onclickTwoDay() {
   let onedaybutton = document.getElementById("day-1-button");
   let twodaybutton = document.getElementById("day-2-button");
   const target = document.querySelector("#targetImage");
-  const url = "../image/event/stage/stage_soon.png";
+  const url = "../image/event/stage/stage_day2.webp";
   target.src = url;
   console.log(url);
   twodaybutton.classList.add("delete-border-bottom");

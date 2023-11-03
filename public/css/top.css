@@ -221,7 +221,7 @@ text-decoration: none;
 }
 
 .index-goods{
-  background-color: #888;
+  background-image: url("../image/index/goods_button_bg.webp");
   background-size: cover;
   background-position: left;
 }
