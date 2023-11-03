@@ -143,13 +143,19 @@ text-decoration: none;
   gap: 10px;
 }
 .index-theme,
-.index-access,
-.index-cm,
-.index-goods {
+.index-access{
   background-color: black;
-  width: 45%;
-  aspect-ratio: 2.7/1;
+  width: 47.5%;
+  aspect-ratio: 2.7/1.8;
   color: white;
+}
+.index-goods{
+  width: 100%;
+  aspect-ratio: 2.7/1;
+}
+
+.index-cm{
+  width: 65%;
 }
 .index-stage,
 .index-cafe,
@@ -160,12 +166,12 @@ text-decoration: none;
   aspect-ratio: 1/1;
   color: white;
 }
-.index-game {
+/* .index-game {
   background-color: black;
   width: 535px;
   aspect-ratio: 4.6/1;
   color: white;
-}
+} */
 
 .index-theme{
   background-image: url("../image/index/theme_button_bg.webp");
@@ -208,11 +214,11 @@ text-decoration: none;
   background-position: right;
 }
 
-.index-game{
+/* .index-game{
   background-color: #888;
   background-size: cover;
   background-position: left;
-}
+} */
 
 .index-cm{
   background-image: url("../image/index/cm_button_bg.webp");
